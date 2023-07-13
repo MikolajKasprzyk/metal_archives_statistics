@@ -14,9 +14,9 @@ The project involved the following steps:
 
 1. Web Scraping: The web scraping process was conducted in two stages:
 
-   a. Scraping Band URLs: Initially, the project involved scraping the URLs for every single band listed on the Metal Archives website. That was achives using Metal_Archives alphabetical list of bands, navigating letter by letter. The list of urls was then exported to pickle file database and used in the next step to navigate to every band in Metal_Archives website.
+   a. Scraping Band URLs: Initially, the project involved scraping the URLs and bands names for every single band listed on the Metal Archives website. That was achived using Metal-Archives alphabetical list of bands, navigating letter by letter. The dataframe of urls and names was then exported to pickle file and used in the next step to navigate to every band in Metal-Archives website.
 
-   b. Scraping Band Information: Once the band URLs were obtained, the code utilized Selenium and BeautifulSoup libraries to open each band's page and extract additional information such as discography, band members, and other details. Extracted data was then gathered into database and exported to in pickle format. During data scraping database was updated every few bands, because there is lots of bands and it was not possible to scrape all of them in one session.
+   b. Scraping Band Information: Once the band URLs were obtained, the code utilized Selenium and BeautifulSoup libraries to open each band's page and extract additional information such as discography, band members, and other details. Extracted data was then gathered into dataframe and exported to in pickle format. During data scraping database was updated every few bands, because there is lots of bands and it was not possible to scrape all of them in one session. Links to urls and raw scraped data below in 'Scraped data dataframes, section.
 
 2. Data Cleaning: The scraped data was cleaned and processed to remove duplicates, format dates, handle missing values, and transform the data into a suitable format for analysis. The cleaning code is provided in the 'data_cleaning.py' file.
 
@@ -52,9 +52,9 @@ To reproduce the analysis and explore the data:
 - [Metal Archives website](https://www.metal-archives.com/)
 - [Keggle World Population dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset)
 
-# Scraped data databases:
-- [Bands URLs Database](https://drive.google.com/file/d/1-UfaAvWHm4vEQQGQCpq5mGCzaQe_KCFX/view?usp=sharing)
-- [Raw Data Database](https://drive.google.com/file/d/1o5Rle2OSVvGL7PHpPbD_Jy_wgJHzpsLr/view?usp=sharing)
+### Scraped data dataframes:
+- [Bands URLs Dataframe](https://drive.google.com/file/d/1-UfaAvWHm4vEQQGQCpq5mGCzaQe_KCFX/view?usp=sharing)
+- [Raw Data Dataframe](https://drive.google.com/file/d/1o5Rle2OSVvGL7PHpPbD_Jy_wgJHzpsLr/view?usp=sharing)
 
  Special thanks to the following repositories and their respective contributors for providing valuable code that was utilized in this project:
 
