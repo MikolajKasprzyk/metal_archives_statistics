@@ -31,6 +31,7 @@ The project involved the following steps:
 - 'metal_archives_scraper.py': Python code for web scraping the Metal Archives website.
 - 'metal_archives_processing.py': Python code for cleaning and processing the scraped data.
 - 'metal_archives_ER_diagram.png': ER diagram illustrating the database schema.
+- 'world_population.csv': Keggle dataset with word population, 'data' directory
 - 'README.md': This file providing an overview of the project.
 
 ## Usage
