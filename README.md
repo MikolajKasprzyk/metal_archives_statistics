@@ -20,16 +20,17 @@ The project involved the following steps:
 
 2. Data Cleaning: The scraped data was cleaned and processed to remove duplicates, format dates, handle missing values, and transform the data into a suitable format for analysis. The cleaning code is provided in the 'data_cleaning.py' file.
 
-3. Database Creation: The cleaned data was used to create a relational database with tables for bands, records, genres, artists, lyrics, and band-year information. The database schema is represented in the ER diagram provided in the 'ER_diagram.png' file.
+4. Database Creation: The cleaned data was used to create a relational database with tables for bands, records, genres, artists, lyrics, and band-year information. The database schema is represented in the ER diagram provided in the 'ER_diagram.png' file.
 
-4. Visualization: The cleaned data was exported to CSV files and used to build an interactive dashboard in [Tableau](https://public.tableau.com/). The Tableau workbook file ('metal_bands_dashboard.twb') contains various visualizations and insights derived from the data. The dashboard can be accessed [here](https://public.tableau.com/app/profile/miko.aj.kasprzyk/viz/metal_archives_statistics/Dashboard1).
+5. Additional database of 'world_population.csv' from Keggle was used to create visualiztions that needed those data.  
+
+6. Visualization: The cleaned data was exported to CSV files and used to build an interactive dashboard in [Tableau](https://public.tableau.com/) containing various visualizations and insights derived from the data. The dashboard can be accessed [here](https://public.tableau.com/app/profile/miko.aj.kasprzyk/viz/metal_archives_statistics/Dashboard1).
 
 ## Files
 
-- 'scraping_code.py': Python code for web scraping the Metal Archives website.
-- 'data_cleaning.py': Python code for cleaning and processing the scraped data.
-- 'ER_diagram.png': ER diagram illustrating the database schema.
-- 'metal_bands_dashboard.twb': Tableau workbook file containing the interactive dashboard.
+- 'metal_archives_scraper.py': Python code for web scraping the Metal Archives website.
+- 'metal_archives_processing.py': Python code for cleaning and processing the scraped data.
+- 'metal_archives_ER_diagram.png': ER diagram illustrating the database schema.
 - 'README.md': This file providing an overview of the project.
 
 ## Usage
@@ -45,8 +46,10 @@ To reproduce the analysis and explore the data:
 4. Open the Tableau workbook file ('metal_bands_dashboard.twb') to explore the visualizations and insights derived from the data. Adjust the connection settings to connect to the created database if necessary. The interactive dashboard can be accessed [here](https://public.tableau.com/app/profile/miko.aj.kasprzyk/viz/metal_archives_statistics/Dashboard1).
 
 ## References
+https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset
 This was achieved by utilizing code from the [ma-scraper](https://github.com/jonchar/ma-scraper) repository.
 The scraping code for this stage is based on code from the [metal_archives](https://github.com/st-olz/metal_archives) repository.
+[here](https://public.tableau.com/app/profile/miko.aj.kasprzyk/viz/metal_archives_statistics/Dashboard1).
 
 - [Metal Archives website](https://www.metal-archives.com/)
 - [Bands URLs Database](https://drive.google.com/file/d/1-UfaAvWHm4vEQQGQCpq5mGCzaQe_KCFX/view?usp=sharing)
