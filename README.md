@@ -46,19 +46,21 @@ To reproduce the analysis and explore the data:
 4. Open the Tableau workbook file ('metal_bands_dashboard.twb') to explore the visualizations and insights derived from the data. Adjust the connection settings to connect to the created database if necessary. The interactive dashboard can be accessed [here](https://public.tableau.com/app/profile/miko.aj.kasprzyk/viz/metal_archives_statistics/Dashboard1).
 
 ## References
-https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset
-This was achieved by utilizing code from the [ma-scraper](https://github.com/jonchar/ma-scraper) repository.
-The scraping code for this stage is based on code from the [metal_archives](https://github.com/st-olz/metal_archives) repository.
-[here](https://public.tableau.com/app/profile/miko.aj.kasprzyk/viz/metal_archives_statistics/Dashboard1).
 
+- [Tableau Public interactive dashboard](https://public.tableau.com/app/profile/miko.aj.kasprzyk/viz/metal_archives_statistics/Dashboard1).
 - [Metal Archives website](https://www.metal-archives.com/)
 - [Bands URLs Database](https://drive.google.com/file/d/1-UfaAvWHm4vEQQGQCpq5mGCzaQe_KCFX/view?usp=sharing)
 - [Raw Data Database](https://drive.google.com/file/d/1o5Rle2OSVvGL7PHpPbD_Jy_wgJHzpsLr/view?usp=sharing)
-- [Tableau Dashboard](https://public.tableau.com/app/profile/miko.aj.kasprzyk/viz/metal_archives_statistics/Dashboard1)
-- [ma-scraper repository](https://github.com/jonchar/ma-scraper)
-- [metal_archives repository](https://github.com/st-olz/metal_archives)
+- [Keggle World Population dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset)
+
+ Special thanks to the following repositories and their respective contributors for providing valuable code that was utilized in this project:
+
+   - [ma-scraper repository](https://github.com/jonchar/ma-scraper) by jonchar
+   - [metal_archives repository](https://github.com/st-olz/metal_archives) repository by st-olz
+
+Their code served as a foundation for the web scraping process, and their contributions were instrumental in the success of this project. I am grateful for their efforts and the open-source community's collaborative spirit.
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute the code and analysis results.
 
