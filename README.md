@@ -30,8 +30,8 @@ The project involved the following steps:
 
 - 'metal_archives_scraper.py': Python code for web scraping the Metal Archives website.
 - 'metal_archives_processing.py': Python code for cleaning and processing the scraped data.
-- 'metal_archives_ER_diagram.png': ER diagram illustrating the database schema.
-- 'world_population.csv': Keggle dataset with word population, 'data' directory
+- 'metal_archives_ER_diagram.png': ER diagram illustrating the database schema, `ER_diagram` directory.
+- 'world_population.csv': Keggle dataset with word population,  `data` directory
 - 'README.md': This file providing an overview of the project.
 
 ## Usage
@@ -50,9 +50,11 @@ To reproduce the analysis and explore the data:
 
 - [Tableau Public interactive dashboard](https://public.tableau.com/app/profile/miko.aj.kasprzyk/viz/metal_archives_statistics/Dashboard1).
 - [Metal Archives website](https://www.metal-archives.com/)
+- [Keggle World Population dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset)
+
+# Scraped data databases:
 - [Bands URLs Database](https://drive.google.com/file/d/1-UfaAvWHm4vEQQGQCpq5mGCzaQe_KCFX/view?usp=sharing)
 - [Raw Data Database](https://drive.google.com/file/d/1o5Rle2OSVvGL7PHpPbD_Jy_wgJHzpsLr/view?usp=sharing)
-- [Keggle World Population dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset)
 
  Special thanks to the following repositories and their respective contributors for providing valuable code that was utilized in this project:
 
