@@ -26,6 +26,10 @@ The project involved the following steps:
 
 6. Visualization: The cleaned data was exported to CSV files and used to build an interactive dashboard in [Tableau](https://public.tableau.com/) containing various visualizations and insights derived from the data. The dashboard can be accessed [here](https://public.tableau.com/app/profile/miko.aj.kasprzyk/viz/metal_archives_statistics/Dashboard1).
 
+## ER Diagram
+
+![alt text](https://github.com/MikolajKasprzyk/metal_archives_statistics/blob/main/ER_diagram/metal_archives_ER_diagram.png)
+
 ## Files
 
 - 'metal_archives_scraper.py': Python code for web scraping the Metal Archives website, `notebooks` directory.
