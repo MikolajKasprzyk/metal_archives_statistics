@@ -1,7 +1,6 @@
 # Metal Bands Data Analysis
 
 ## Project Overview
-
 This data science project focuses on analyzing data scraped from the Metal Archives website to gain insights into various aspects of metal bands. The project includes web scraping, data cleaning, and database creation. The extracted data is then visualized using Tableau to create an interactive dashboard.
 
 ## Data Sources
