@@ -50,6 +50,7 @@ To reproduce the analysis and explore the data:
 
 4. Open the Tableau workbook file ('metal_bands_dashboard.twb') to explore the visualizations and insights derived from the data. Adjust the connection settings to connect to the created database if necessary. The interactive dashboard can be accessed [here](https://public.tableau.com/app/profile/miko.aj.kasprzyk/viz/metal_archives_statistics/Dashboard1).
 
+
 ## References
 
 - [Tableau Public interactive dashboard](https://public.tableau.com/app/profile/miko.aj.kasprzyk/viz/metal_archives_statistics/Dashboard1).
